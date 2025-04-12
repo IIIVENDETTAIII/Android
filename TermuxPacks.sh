@@ -30,7 +30,11 @@ pip install --upgrade pip setuptools wheel
 
 # Установка популярных Python-библиотек
 echo -e "\033[0;32m>>> Установка популярных Python-библиотек...\033[0m"
-pip install requests beautifulsoup4 lxml flask pyrogram tgcrypto \
+pip install requests colorama flask
+
+# Установка дополнительных Python-библиотек
+echo -e "\033[0;32m>>> Установка дополнительных Python-библиотек...\033[0m"
+pip install requests beautifulsoup4 lxml pyrogram tgcrypto \
             numpy pandas pillow matplotlib aiohttp httpx
 
 # Завершение установки
